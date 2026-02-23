@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artifacts & model weights
+*.pt
+*.pth
+*.ckpt
+*.pkl
+artifacts/
+
+# Data
+*.csv
+/data/
+
+# Logs
+wandb/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep specific assets
+!assets/**/*.png
+!text-to-image/assets/**/*.png
+!text-to-image/ddpo_pytorch/assets/**/*.pth
+!discrete-sequence/media/**/*.png
+!discrete-sequence/*.png
